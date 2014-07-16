@@ -4,7 +4,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-firewall \
 	gluon-legacy \
 	gluon-luci-admin \
 	gluon-luci-autoupdater \
@@ -13,6 +12,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-status-page \
+	gluon-ath9k-workaround \
 	iwinfo \
 	iptables \
 	haveged

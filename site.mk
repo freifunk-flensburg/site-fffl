@@ -13,6 +13,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-status-page \
 	gluon-ath9k-workaround \
+	gluon-announced \
+	gluon-luci-portconfig \
 	iwinfo \
 	iptables \
 	haveged

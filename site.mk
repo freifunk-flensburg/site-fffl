@@ -19,11 +19,11 @@ GLUON_SITE_PACKAGES := \
 	haveged
 
 
-DEFAULT_GLUON_RELEASE := experimental-14.3.0
+DEFAULT_GLUON_RELEASE := stable-14.3.0
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
 
-GLUON_BRANCH=experimental
+GLUON_BRANCH=stable

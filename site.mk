@@ -1,7 +1,8 @@
 GLUON_SITE_PACKAGES := \ 
 	gluon-mesh-batman-adv-15 \ 
 	gluon-alfred \ 
-	gluon-autoupdater \ 
+	gluon-autoupdater \
+	gluon-announced \
 	gluon-config-mode-autoupdater \ 
 	gluon-config-mode-hostname \ 
 	gluon-config-mode-mesh-vpn \ 
@@ -11,6 +12,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-ebtables-filter-ra-dhcp \ 
 	gluon-luci-admin \ 
 	gluon-luci-autoupdater \ 
+	gluon-luci-portconfig \
 	gluon-next-node \ 
 	gluon-mesh-vpn-fastd \ 
 	gluon-radvd \ 

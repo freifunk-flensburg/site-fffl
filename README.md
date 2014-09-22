@@ -15,3 +15,4 @@ Changelog for Stable-Version "S-1.0"
 * Added the update mirrors "fddf:bf7:10:1:1::1" and "fddf:bf7:10:1:1::2"
 * Shortend the release-name for the Stable-Versions
 * The short Names are now for official stabel Versions only!
+* Changed MTU to 1406

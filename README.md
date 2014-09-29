@@ -3,6 +3,11 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
+Changelog for Stable-Version "S-1.1"
+------------------------------------
+* Added Public Key from Flemming for update signing
+* Raised the number of valid signatures from 2 to 3 for beta and stable branch
+* Added the Bugfix for the fastd-config-update Bug, see here: http://wiki.freifunk-flensburg.de/wiki/Fastd-bug
 
 Changelog for Stable-Version "S-1.0"
 ------------------------------------

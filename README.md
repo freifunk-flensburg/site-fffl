@@ -1,11 +1,11 @@
 site-fffl
 =========
 
-DIE VERSION "S-1.2" IST BISHER WEDER GETESTET, NOCH VERÖFFENTLICHT!
-===================================================================
+DIE VERSION "S-1.2" IST BISHER IN DER BETA PHASE! BITTE NUR ALS BETA NUTZEN!
+============================================================================
 
-THE VERSION "S-1.2" IS NOT RELEASED AND TESTED YET!
-===================================================
+THE VERSION "S-1.2" IS IN BETA TESTING RIGHT NOW. USE THIS AS A BETA ONLY!
+==========================================================================
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
@@ -15,6 +15,8 @@ Changelog for Stable-Version "S-1.2"
 * Added Public Key from Sven for Update signing
 * Removed the Updateserveraddresses which start with "2001:bf:10"
 * removed propability from the Autoupdater-section
+* Raised the simpletc upload limit to 600
+* Raised the simpletc download limit to 4000
 
 Changelog for Stable-Version "S-1.1"
 ------------------------------------

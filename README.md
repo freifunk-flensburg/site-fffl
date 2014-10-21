@@ -11,12 +11,14 @@ This repository contains the site.conf and other configuration files for the Glu
 
 Changelog for Stable-Version "S-1.2"
 ------------------------------------
-* Switched to Gluon-Version "2014.3.1" Changelog [link]
+* Switched to Gluon-Version "2014.3.1" Changelog http://gluon.readthedocs.org/en/v2014.3.1/releases/v2014.3.1.html
 * Added Public Key from Sven for Update signing
 * Removed the Updateserveraddresses which start with "2001:bf:10"
 * removed propability from the Autoupdater-section
 * Raised the simpletc upload limit to 600
 * Raised the simpletc download limit to 4000
+* disabled simpletc by default
+* enabled mesh-vpn by default (new in gluon 2014.3.1)
 
 Changelog for Stable-Version "S-1.1"
 ------------------------------------

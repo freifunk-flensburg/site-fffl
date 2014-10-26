@@ -3,6 +3,7 @@ Release-Cecklist V1.0
 Images
 ------
 - [x] Images liegen auf internem Updateserver bereit
+- [x] Die Images sind vollständig
 
 Rohdaten
 --------
@@ -17,3 +18,5 @@ Fertige Firmware
 - [ ] SSID und MESH-SSID stimmen
 - [ ] SSH-Verbindung auf den Router ist möglich
 - [ ] Statusseite ist erreichbar
+- [ ] Der Router kann mehrere Clients versorgen
+- [ ] Der Router kann ein gefaketes Autoupdate durchführen (siehe Anleitung)

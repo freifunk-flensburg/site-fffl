@@ -17,6 +17,7 @@ Fertige Firmware
 - [ ] baut fastd verbindung auf
 - [ ] SSID und MESH-SSID stimmen
 - [ ] SSH-Verbindung auf den Router ist möglich
-- [ ] Statusseite ist erreichbar
+- [ ] Statusseite ist erreichbar (IPv4, IPv6)
 - [ ] Der Router kann mehrere Clients versorgen
 - [ ] Der Router kann ein gefaketes Autoupdate durchführen (siehe Anleitung)
+- [ ] Taucht der Knoten auf der Karte auf mit Versionsnummer und co.

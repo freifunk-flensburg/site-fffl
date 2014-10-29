@@ -2,8 +2,9 @@ Release-Cecklist V1.0
 =====================
 Images
 ------
-- [x] Images liegen auf internem Updateserver bereit
-- [x] Die Images sind vollständig
+- [x] Images liegen zum Download aus inoffiziellen Quellen bereit
+- [ ] Images liegen auf internem Updateserver bereit
+- [ ] Die Images sind vollständig
 
 Rohdaten
 --------

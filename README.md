@@ -19,6 +19,7 @@ Changelog for Stable-Version "S-1.2"
 * Raised the simpletc download limit to 4000
 * disabled simpletc by default
 * enabled mesh-vpn by default (new in gluon 2014.3.1)
+* raised peer limit from 2 to 4
 
 Changelog for Stable-Version "S-1.1"
 ------------------------------------

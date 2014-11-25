@@ -25,7 +25,7 @@ GLUON_SITE_PACKAGES := \
 	haveged 
 
  
-DEFAULT_GLUON_RELEASE := beta-14.4.0 
+DEFAULT_GLUON_RELEASE := exp-25.11.14 
 
  
 # Allow overriding the release number from the command line 
@@ -33,4 +33,4 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
 
-GLUON_BRANCH=beta
+GLUON_BRANCH=experimental

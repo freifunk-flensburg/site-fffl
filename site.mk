@@ -1,30 +1,26 @@
-GLUON_SITE_PACKAGES := \ 
-	gluon-mesh-batman-adv-15 \ 
-	gluon-alfred \ 
-	gluon-autoupdater \
+GLUON_SITE_PACKAGES := \
+	gluon-mesh-batman-adv-14 \
+	gluon-alfred \
 	gluon-announced \
-	gluon-config-mode-autoupdater \ 
-	gluon-config-mode-hostname \ 
-	gluon-config-mode-mesh-vpn \ 
-	gluon-config-mode-geo-location \ 
-	gluon-config-mode-contact-info \ 
-	gluon-ebtables-filter-multicast \ 
-	gluon-ebtables-filter-ra-dhcp \ 
-	gluon-luci-admin \ 
-	gluon-luci-autoupdater \ 
+	gluon-autoupdater \
+	gluon-config-mode-hostname \
+	gluon-config-mode-autoupdater \
+	gluon-config-mode-mesh-vpn \
+	gluon-config-mode-geo-location \
+	gluon-config-mode-contact-info \
+	gluon-ebtables-filter-multicast \
+	gluon-ebtables-filter-ra-dhcp \
+	gluon-luci-admin \
+	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
-	gluon-next-node \ 
-	gluon-mesh-vpn-fastd \ 
-	gluon-radvd \ 
-	gluon-status-page \ 
-	gluon-ath9k-workaround \ 
-	gluon-announced \ 
-	gluon-luci-portconfig \ 
-	iwinfo \ 
-	iptables \ 
+	gluon-next-node \
+	gluon-mesh-vpn-fastd \
+	gluon-radvd \
+	gluon-status-page \
+	iwinfo \
+	iptables \
 	haveged 
 
- 
 DEFAULT_GLUON_RELEASE := exp-25.11.14 
 
  

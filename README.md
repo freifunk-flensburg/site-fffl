@@ -3,6 +3,15 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
+Changelog for Stable-Version "2014.4.0-0"
+------------------------------------
+* firmware based on gluon 2014.4.x commit c7687a2ae867c89d2c9906467b16e60a35d6e5f
+* gluon-mesh-batman-adv-14
+* added puplic keys from sven, horst, wiflix
+* removed public keys from hendrik, drbob
+* fastd method to salsa2012+umac for almost double vpn speed
+* changed the version-naming to "gluonversion"-"ffflversion of that gluonversion"
+
 Changelog for Stable-Version "S-1.1"
 ------------------------------------
 * Added Public Key from Flemming for update signing

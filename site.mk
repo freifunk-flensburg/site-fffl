@@ -25,7 +25,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged
 
-DEFAULT_GLUON_RELEASE := 2015.1.0-beta-$(shell date '+%Y-%m-%d_%H.%M')
+DEFAULT_GLUON_RELEASE := 2015.1.0-beta-$(shell date '+%Y-%m-%d_%H_%M')
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0

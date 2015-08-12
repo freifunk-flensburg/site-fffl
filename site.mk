@@ -25,12 +25,12 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged
 
-DEFAULT_GLUON_RELEASE := 2015.1.0-beta-$(shell date '+%Y-%m-%d_%H_%M')
+DEFAULT_GLUON_RELEASE := 2015.2-exp-$(shell date '+%m-%d_%H_%M')
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
 
-DEFAULT_GLUON_BRANCH = beta
+DEFAULT_GLUON_BRANCH = experimental
 GLUON_BRANCH ?= $(DEFAULT_GLUON_BRANCH)
 export GLUON_BRANCH
 

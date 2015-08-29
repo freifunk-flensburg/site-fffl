@@ -9,7 +9,7 @@ Changelog for Stable-Version "2015.1.2-0"
 * added multilanguage support
 * removed public keys of wiflix, rene and flemming
 * added public key of bigfoot
-* modified structure of site.conf for compatibility wih gluon 2015.1x
+* modified structure of site.conf for compatibility with gluon 2015.1x
 * moved configure mode dialoges from site.conf into multi language support
 * modified site.mk GLUON_TARGET=ar71xx-generic  by default autoupdater on by default
 

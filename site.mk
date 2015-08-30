@@ -36,5 +36,6 @@ export GLUON_BRANCH
 
 GLUON_TARGET ?= ar71xx-generic
 export GLUON_TARGET
+#if you want to build the other targets specify them in make GLUON_TARGET= at build time
 
 GLUON_LANGS ?= en de da

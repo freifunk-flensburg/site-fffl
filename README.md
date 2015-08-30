@@ -5,6 +5,7 @@ This repository contains the site.conf and other configuration files for the Glu
 
 Changelog for Stable-Version "2015.1.2-0"
 -----------------------------------------
+Version is Beta at the Moment
 * firmware based on gluon 2015.1.x commit 2a5b7050da7093f6f2d4a09b7bcd3ff64945e4bd
 * added multilanguage support
 * removed public keys of wiflix, rene and flemming

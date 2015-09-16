@@ -13,6 +13,7 @@ Version is Beta at the Moment
 * modified structure of site.conf for compatibility with gluon 2015.1x
 * moved configure mode dialoges from site.conf into multi language support
 * modified site.mk GLUON_TARGET=ar71xx-generic  by default autoupdater on by default
+* fastd mesh vpn peer limit from 2 to 1 to reduce background traffic
 
 Changelog for Stable-Version "2014.4.0-0"
 -----------------------------------------

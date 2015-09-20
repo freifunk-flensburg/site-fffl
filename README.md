@@ -5,13 +5,19 @@ This repository contains the site.conf and other configuration files for the Glu
 
 Changelog for Stable-Version "2015.1.2-0"
 -----------------------------------------
-Version is Beta at the Moment
-* firmware based on gluon 2015.1.x commit 2a5b7050da7093f6f2d4a09b7bcd3ff64945e4bd
-* added multilanguage support
+Gluon specific changes:
+* firmware based on gluon 2015.1.x commit:
+* https://github.com/freifunk-gluon/gluon/commit/2a5b7050da7093f6f2d4a09b7bcd3ff64945e4bd
+* includes gluon versions:
+* http://gluon.readthedocs.org/en/latest/releases/v2015.1.2.html
+* http://gluon.readthedocs.org/en/latest/releases/v2015.1.1.html
+* http://gluon.readthedocs.org/en/latest/releases/v2015.1.html
+
+FFFL specific changes:
+* based on site-fffl commit ...
 * removed public keys of wiflix, rene and flemming
 * added public key of bigfoot
 * modified structure of site.conf for compatibility with gluon 2015.1x
-* moved configure mode dialoges from site.conf into multi language support
 * modified site.mk GLUON_TARGET=ar71xx-generic  by default autoupdater on by default
 * fastd mesh vpn peer limit from 2 to 1 to reduce background traffic
 

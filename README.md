@@ -7,14 +7,15 @@ Changelog for Stable-Version "2015.1.2-0"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2015.1.x commit:
-* https://github.com/freifunk-gluon/gluon/commit/2a5b7050da7093f6f2d4a09b7bcd3ff64945e4bd
+* https://github.com/freifunk-gluon/gluon/commit/8db1e73ca46eec74543725971a9fabb67b5fdde6
 * includes gluon versions:
 * http://gluon.readthedocs.org/en/latest/releases/v2015.1.2.html
 * http://gluon.readthedocs.org/en/latest/releases/v2015.1.1.html
 * http://gluon.readthedocs.org/en/latest/releases/v2015.1.html
 
 FFFL specific changes:
-* based on site-fffl commit ...
+* based on site-fffl commit:
+* https://github.com/freifunk-flensburg/site-fffl/commit/246df95045c048a608b6d8ac4fd3d59d2ef27f33
 * removed public keys of wiflix, rene and flemming
 * added public key of bigfoot
 * modified structure of site.conf for compatibility with gluon 2015.1x

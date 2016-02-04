@@ -3,8 +3,27 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
+Changelog for Stable-Version "2015.1.2-0"
+-----------------------------------------
+Gluon specific changes:
+* firmware based on gluon 2015.1.x commit:
+* https://github.com/freifunk-gluon/gluon/commit/8db1e73ca46eec74543725971a9fabb67b5fdde6
+* includes gluon versions:
+* http://gluon.readthedocs.org/en/latest/releases/v2015.1.2.html
+* http://gluon.readthedocs.org/en/latest/releases/v2015.1.1.html
+* http://gluon.readthedocs.org/en/latest/releases/v2015.1.html
+
+FFFL specific changes:
+* based on site-fffl commit:
+* https://github.com/freifunk-flensburg/site-fffl/commit/246df95045c048a608b6d8ac4fd3d59d2ef27f33
+* removed public keys of wiflix, rene and flemming
+* added public key of bigfoot
+* modified structure of site.conf for compatibility with gluon 2015.1x
+* modified site.mk GLUON_TARGET=ar71xx-generic  by default autoupdater on by default
+* fastd mesh vpn peer limit from 2 to 1 to reduce background traffic
+
 Changelog for Stable-Version "2014.4.0-0"
-------------------------------------
+-----------------------------------------
 * firmware based on gluon 2014.4.x commit c7687a2ae867c89d2c9906467b16e60a35d6e5f
 * gluon-mesh-batman-adv-14
 * added puplic keys from sven, horst, wiflix

@@ -3,8 +3,10 @@ GLUON_SITE_PACKAGES := \
 	gluon-alfred \
 	gluon-announced \
 	gluon-autoupdater \
-	gluon-config-mode-hostname \
+	gluon-setup-mode \
+	gluon-config-mode-core \
 	gluon-config-mode-autoupdater \
+	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-contact-info \
@@ -14,6 +16,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
 	gluon-luci-private-wifi \
+	gluon-luci-wifi-config\
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
@@ -22,10 +25,17 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged
 
-DEFAULT_GLUON_RELEASE := stable-2014.4.0-0
+DEFAULT_GLUON_RELEASE := stable-2015.1.2-0
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
 
 DEFAULT_GLUON_BRANCH = stable
 GLUON_BRANCH ?= $(DEFAULT_GLUON_BRANCH)
+export GLUON_BRANCH
+
+GLUON_TARGET ?= ar71xx-generic
+export GLUON_TARGET
+#if you want to build the other targets specify them in make GLUON_TARGET= at build time
+
+GLUON_LANGS ?= en de da

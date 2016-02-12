@@ -17,8 +17,6 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"Det er den offentlige nøgle af din Freifunk node. Det er kun for din infomation.<br />"
-"Det er ikke nødvendig at registrere noden på Freifunk Flensborg serverne. <br />"
 
 
 msgid "gluon-config-mode:reboot"

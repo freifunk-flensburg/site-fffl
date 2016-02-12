@@ -17,9 +17,6 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"Dies ist der öffentliche Schlüssel deines Freifunk-Knotens. <br />"
-"Dieser dient nur zu deiner Information und muss zur Zeit nicht <br />"
-"auf den Servern des Freifunks Flensburg registriert werden <br />"
 "Der Knoten ist sofort Einsatzbereit. <br />"
 
 msgid "gluon-config-mode:reboot"

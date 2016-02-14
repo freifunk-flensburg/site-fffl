@@ -3,6 +3,17 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
+Changelog for exp-Version "2016.1.0-0"
+-----------------------------------------
+Gluon specific changes:
+* firmware based on gluon 2016.1.x commit: xxx
+* * includes gluon versions:
+* http://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html
+
+FFFL specific changes:
+* based on site-fffl commit: xxx
+* increased suggested outgoing bandwith-limit from 200kb/s to 400kb/s
+
 Changelog for Stable-Version "2015.1.2-0"
 -----------------------------------------
 Gluon specific changes:

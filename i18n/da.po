@@ -29,5 +29,5 @@ msgstr ""
 "3 sekunder under normal drift. Enheden vil derefter genstarter indstillings "
 "mode.</p>"
 "<p>Har det sjovt med din node og udforske Freifunk nettet!</p>"
-"<p>Efter din router ha fået forbindelse med Freifunk netværket du finder status siden på <a href=\"http://10.129.0.1/\"></a></p>
+"<p>Efter din router ha fået forbindelse med Freifunk netværket findes status siden på <a href=\"http://10.129.0.1/\"></a></p>
 

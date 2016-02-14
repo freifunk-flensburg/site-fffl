@@ -26,7 +26,7 @@ msgstr ""
 "Du kan finde masser af oplysninger om samfundet på "
 "<a href=\"https://flensburg.freifunk.net/\">vores hjemmeside</a>.</p>"
 "<p>At komme tilbage til denne konfiguration interface, skal du trykke på reset-knappen i "
-"3 sekunder under normal drift. Enheden vil derefter genstarter indstillings "
+"omkring ti sekunder indtil alle LEDer vil lyse op under normal drift. Enheden vil derefter genstarter indstillings "
 "mode.</p>"
 "<p>Har det sjovt med din node og udforske Freifunk nettet!</p>"
 "<p>Efter din router ha fået forbindelse med Freifunk netværket findes status siden på <a href=\"http://10.129.0.1/\"></a></p>

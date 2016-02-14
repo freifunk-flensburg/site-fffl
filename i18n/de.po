@@ -27,7 +27,7 @@ msgstr ""
 "Flensburger Freifunk-Community findest du auf "
 "<a href=\"http://freifunk-flensburg.de/\">unserer Webseite</a>.</p>"
 "<p>Um zu dieser Konfigurationsseite zurückzugelangen, drücke im normalen "
-"Betrieb für drei Sekunden den Reset-Button. Das Gerät wird dann im Config "
+"Betrieb den Reset-Button ca 10s bis alle LEDs einmal kurz aufleuchten. Das Gerät wird dann im Config "
 "Mode neustarten.</p>"
 "<p>Viel Spaß mit deinem Knoten und der Erkundung von Freifunk!</p>"
 "<p>Wenn dein Router Verbindung zum Freifunknetz aufgebaut hat erreichst du seine Statusseite unter <a href=\"http://10.129.0.1/\"></a></p>

@@ -28,3 +28,4 @@ msgstr ""
 "3 seconds during normal operation. The device will then reboot into config "
 "mode.</p>"
 "<p>Have fun with your node and exploring the Freifunk network!</p>"
+"<p>After your router established connection to the Freifunk net you'll find its status page at <a href=\"http://10.129.0.1/\"></a></p>

@@ -28,11 +28,14 @@ GLUON_SITE_PACKAGES := \
 DEFAULT_GLUON_RELEASE := 2016.1.0-exp-11s-$(shell date '+%m-%d_%H_%M')
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
-GLUON_PRIORITY ?= 0
 
-DEFAULT_GLUON_BRANCH = experimental
-GLUON_BRANCH ?= $(DEFAULT_GLUON_BRANCH)
-export GLUON_BRANCH
+#set "DEFAULT_GLUON_BRANCH = branch" to enable autoupdate on by default
+#DEFAULT_GLUON_BRANCH = experimental
+#GLUON_BRANCH ?= $(DEFAULT_GLUON_BRANCH)
+#export GLUON_BRANCH
+
+#set "GLUON_PRIORITY ?= days" to set the maximum number of days the autoupdater will wait until it pulls an autoupdate
+GLUON_PRIORITY ?= 0
 
 GLUON_TARGET ?= ar71xx-generic
 export GLUON_TARGET

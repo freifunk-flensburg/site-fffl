@@ -3,12 +3,13 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
-Changelog for Stable-Version "2016.1.4-0"
+Changelog for Beta-Version "2016.1.5-0"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2016.1.x commit:
-https://github.com/freifunk-gluon/gluon/commit/14ccbd2f5ddbd451638330d90af241f99dc3acd0
+https://github.com/freifunk-gluon/gluon/commit/deac14e62959f9cc3aba1d974950c092224e78d0
 * includes gluon versions:
+* http://gluon.readthedocs.io/en/latest/releases/v2016.1.5.html
 * http://gluon.readthedocs.org/en/latest/releases/v2016.1.4.html
 * http://gluon.readthedocs.org/en/latest/releases/v2016.1.3.html
 * http://gluon.readthedocs.org/en/latest/releases/v2016.1.2.html
@@ -17,7 +18,7 @@ https://github.com/freifunk-gluon/gluon/commit/14ccbd2f5ddbd451638330d90af241f99
 
 FFFL specific changes:
 * based on site-fffl commit:
- xxx +1 
+https://github.com/freifunk-flensburg/site-fffl/commit/318116e2ea8a0749f979209726a72a44ed691fc0 +1 
 * increased suggested outgoing bandwith-limit from 200kb/s to 400kb/s
 * changed package name from gluon-announced to gluon-respondd
 * added mlt's signing key to stable, beta and experimental branch 

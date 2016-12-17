@@ -41,4 +41,7 @@ GLUON_TARGET ?= ar71xx-generic
 export GLUON_TARGET
 #if you want to build the other targets specify them in make GLUON_TARGET= at build time
 
+#ath10k devices cant mesh on "ibss" and "11s" at the same time so one needs to be choosen or images wont be build. 
+GLUON_ATH10K_MESH ?= ibss
+
 GLUON_LANGS ?= en de da

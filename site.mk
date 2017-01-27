@@ -25,7 +25,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged
 
-DEFAULT_GLUON_RELEASE := exp-2016.1.5-0_11s_mesh
+DEFAULT_GLUON_RELEASE := exp-2017.0-0__lede_11s_mesh
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 

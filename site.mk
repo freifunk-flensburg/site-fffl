@@ -4,6 +4,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-respondd \
 	gluon-autoupdater \
 	gluon-setup-mode \
+	gluon-client-bridge \
 	gluon-config-mode-core \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-hostname \
@@ -17,7 +18,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-portconfig \
 	gluon-luci-private-wifi \
 	gluon-luci-wifi-config\
-	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-status-page \
@@ -42,6 +42,11 @@ export GLUON_TARGET
 #if you want to build the other targets specify them in make GLUON_TARGET= at build time
 
 #ath10k devices cant mesh on "ibss" and "11s" at the same time so one needs to be choosen or images wont be build. 
-GLUON_ATH10K_MESH ?= ibss
+GLUON_ATH10K_MESH ?= 11s
+export GLUON_ATH10K_MESH
+
+# GLUON_REGION can be set to eu or us
+GLUON_REGION ?= eu
+export GLUON_REGION
 
 GLUON_LANGS ?= en de da

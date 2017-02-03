@@ -22,9 +22,12 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged
-
-DEFAULT_GLUON_RELEASE := exp-2016.1.5-0
+	haveged \
+	gluon-au-change
+	
+	
+	
+DEFAULT_GLUON_RELEASE := exp-2016.1.6-au
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 

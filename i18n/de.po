@@ -17,6 +17,9 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
+"Der öffentliche VPN-Schlüssel deines Freifunk-Knotens muss bei uns nicht <br />"
+"auf den Servern des Freifunks Flensburg registriert werden <br /> <br />"
+"Dein Knoten ist sofort Einsatzbereit. <br />"
 
 
 msgid "gluon-config-mode:reboot"

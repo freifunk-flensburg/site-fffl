@@ -2,9 +2,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-14 \
 	gluon-alfred \
 	gluon-respondd \
+	respondd-airtime \
 	gluon-autoupdater \
 	gluon-setup-mode \
-	gluon-client-bridge \
 	gluon-config-mode-core \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-hostname \

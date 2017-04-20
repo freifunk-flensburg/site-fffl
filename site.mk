@@ -17,7 +17,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-portconfig \
 	gluon-luci-private-wifi \
 	gluon-luci-wifi-config\
-	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-status-page \
@@ -43,5 +42,7 @@ export GLUON_TARGET
 
 #ath10k devices cant mesh on "ibss" and "11s" at the same time so one needs to be choosen or images wont be build. 
 GLUON_ATH10K_MESH ?= ibss
+#"some devices contain a region code that restricts firmware installations. Set GLUON_REGION to eu or us to make the resulting images installable from the respective stock firmwares." from readthedocs gluon
+GLUON_REGION ?= eu
 
 GLUON_LANGS ?= en de da

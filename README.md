@@ -3,21 +3,30 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
-Changelog for Experimental-Version "2016.x"
+Changelog for Stable-Version "2017.x"
 -----------------------------------------
 Gluon specific changes:
-* firmware based on gluon 2016.2.x commit:
+* firmware based on gluon 2017.x commit:
 * xxx
 * includes gluon versions:
-* http://gluon.readthedocs.io/en/latest/releases/v2016.2.1.html
-* http://gluon.readthedocs.io/en/latest/releases/v2016.2.html
-* http://gluon.readthedocs.io/en/latest/releases/v2016.1.6.html
-* http://gluon.readthedocs.io/en/latest/releases/v2016.1.5.html
-* http://gluon.readthedocs.org/en/latest/releases/v2016.1.4.html
-* http://gluon.readthedocs.org/en/latest/releases/v2016.1.3.html
-* http://gluon.readthedocs.org/en/latest/releases/v2016.1.2.html
-* http://gluon.readthedocs.org/en/latest/releases/v2016.1.1.html
-* http://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2017.1.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2017.1.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2017.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.2.7.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.2.6.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.2.5.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.2.4.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.2.3.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.2.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.2.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.1.6.html
+* https://gluon.readthedocs.io/en/latest/releases/v2016.1.5.html
+* https://gluon.readthedocs.org/en/latest/releases/v2016.1.4.html
+* https://gluon.readthedocs.org/en/latest/releases/v2016.1.3.html
+* https://gluon.readthedocs.org/en/latest/releases/v2016.1.2.html
+* https://gluon.readthedocs.org/en/latest/releases/v2016.1.1.html
+* https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html
 
 FFFL specific changes:
 * based on site-fffl commit:

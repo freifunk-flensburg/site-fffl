@@ -9,6 +9,9 @@ Gluon specific changes:
 * firmware based on gluon 2017.x commit:
 * xxx
 * includes gluon versions:
+* https://gluon.readthedocs.io/en/latest/releases/v2017.1.5.html
+* https://gluon.readthedocs.io/en/latest/releases/v2017.1.4.html
+* https://gluon.readthedocs.io/en/latest/releases/v2017.1.3.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.2.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.1.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.html

@@ -39,8 +39,8 @@ GLUON_TARGET ?= ar71xx-generic
 export GLUON_TARGET
 #if you want to build the other targets specify them in make GLUON_TARGET= at build time
 
-#ath10k devices cant mesh on "ibss" and "11s" at the same time so one needs to be choosen or images wont be build. 
-GLUON_ATH10K_MESH ?= ibss
+#ath10k and other devices cant mesh on "ibss" and "11s" at the same time so one needs to be choosen or images wont be build. 
+GLUON_WLAN_MESH ?= ibss
 #"some devices contain a region code that restricts firmware installations. Set GLUON_REGION to eu or us to make the resulting images installable from the respective stock firmwares." from readthedocs gluon
 GLUON_REGION ?= eu
 

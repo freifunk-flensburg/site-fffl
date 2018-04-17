@@ -7,7 +7,7 @@ Changelog for Stable-Version "2017.x"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
-* xxx
+* https://github.com/freifunk-gluon/gluon/commit/a8af5c4499c23baa4a4e8d6c01828a7885739f37
 * includes gluon versions:
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.6.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.5.html
@@ -34,7 +34,7 @@ Gluon specific changes:
 
 FFFL specific changes:
 * based on site-fffl commit:
-https://github.com/freifunk-flensburg/site-fffl/commit/318116e2ea8a0749f979209726a72a44ed691fc0 +1 
+https://github.com/freifunk-flensburg/site-fffl/commit/40f76d37adcf16a794b0715e4b33a6cb6996278c +1 
 * increased suggested outgoing bandwith-limit from 200kb/s to 400kb/s
 * changed package name from gluon-announced to gluon-respondd
 * added mlt's signing key to stable, beta and experimental branch 

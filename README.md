@@ -3,7 +3,17 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
-Changelog for Stable-Version "2017.1.6"
+Changelog for Stable-Version "2017.1.6-1"
+-----------------------------------------
+Gluon specific changes:
+* firmware based on gluon 2017.x commit:
+
+FFFL specific changes:
+* based on site-fffl commit:
+https://github.com/freifunk-flensburg/site-fffl/commit/0c6808c21eca52a69f9fc30b2a9713b60e40376d +1
+*removed ibss meshing, 802.11s mesh from now on only
+
+Changelog for Stable-Version "2017.1.6-0"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:

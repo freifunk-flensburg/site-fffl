@@ -3,7 +3,7 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
-Changelog for Stable-Version "2017.x"
+Changelog for Stable-Version "2017.1.6"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
@@ -35,6 +35,11 @@ Gluon specific changes:
 FFFL specific changes:
 * based on site-fffl commit:
 https://github.com/freifunk-flensburg/site-fffl/commit/40f76d37adcf16a794b0715e4b33a6cb6996278c +1 
+* enable both ibss and 802.11s meshes for migration to 802.11s mesh only which will come in the next releases
+* add 11s mesh_id "0x6666666c2d6d657368" which is hex and means "fffl-mesh" in ASCII
+* removed alfred fromn site.mk
+* add add "GLUON_REGION ?= eu"
+* added static ntp servers 
 * increased suggested outgoing bandwith-limit from 200kb/s to 400kb/s
 * changed package name from gluon-announced to gluon-respondd
 * added mlt's signing key to stable, beta and experimental branch 

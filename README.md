@@ -7,18 +7,19 @@ Changelog for Stable-Version "2017.1.6-1"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
+https://github.com/freifunk-gluon/gluon/commit/a8af5c4499c23baa4a4e8d6c01828a7885739f37
 
 FFFL specific changes:
 * based on site-fffl commit:
-https://github.com/freifunk-flensburg/site-fffl/commit/0c6808c21eca52a69f9fc30b2a9713b60e40376d +1
-*removed ibss meshing, 802.11s mesh from now on only
+https://github.com/freifunk-flensburg/site-fffl/commit/0c6808c21eca52a69f9fc30b2a9713b60e40376d +2
+* removed ibss meshing, 802.11s mesh from now on only
 
 Changelog for Stable-Version "2017.1.6-0"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
 * https://github.com/freifunk-gluon/gluon/commit/a8af5c4499c23baa4a4e8d6c01828a7885739f37
-* includes gluon versions:
+* includes new gluon versions:
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.6.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.5.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.4.html

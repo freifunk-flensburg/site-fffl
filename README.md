@@ -3,22 +3,22 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
-Changelog for Stable-Version "2017.1.6-1"
+Changelog for Stable-Version "2017.1.7-1"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
-https://github.com/freifunk-gluon/gluon/commit/a8af5c4499c23baa4a4e8d6c01828a7885739f37
+https://github.com/freifunk-gluon/gluon/commit/75b70b70820067219a0298ea93bfb9874a4de982
 
 FFFL specific changes:
-* based on site-fffl commit:
-https://github.com/freifunk-flensburg/site-fffl/commit/0c6808c21eca52a69f9fc30b2a9713b60e40376d +2
+* based on site-fffl 2017.x_11s commit:
+https://github.com/freifunk-flensburg/site-fffl/commit/ad41d03373ddd926abff789ae7bf222f8aa86cae +1
 * removed ibss meshing, 802.11s mesh from now on only
 
-Changelog for Stable-Version "2017.1.6-0"
+Changelog for Stable-Version "2017.1.7-0"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
-* https://github.com/freifunk-gluon/gluon/commit/a8af5c4499c23baa4a4e8d6c01828a7885739f37
+https://github.com/freifunk-gluon/gluon/commit/75b70b70820067219a0298ea93bfb9874a4de982
 * includes new gluon versions:
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.6.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.5.html
@@ -44,7 +44,7 @@ Gluon specific changes:
 * https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html
 
 FFFL specific changes:
-* based on site-fffl commit:
+* based on site-fffl 2017.x_11s commit:
 https://github.com/freifunk-flensburg/site-fffl/commit/40f76d37adcf16a794b0715e4b33a6cb6996278c +1 
 * enable both ibss and 802.11s meshes for migration to 802.11s mesh only which will come in the next releases
 * add 11s mesh_id "0x6666666c2d6d657368" which is hex and means "fffl-mesh" in ASCII

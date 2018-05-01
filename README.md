@@ -7,7 +7,7 @@ Changelog for Stable-Version "2017.1.7-1"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
-https://github.com/freifunk-gluon/gluon/commit/75b70b70820067219a0298ea93bfb9874a4de982
+https://github.com/freifunk-gluon/gluon/commit/1db184a51c3eb997f496e9d5090fb365af70f995
 
 FFFL specific changes:
 * based on site-fffl 2017.x_11s commit:
@@ -18,8 +18,9 @@ Changelog for Stable-Version "2017.1.7-0"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
-https://github.com/freifunk-gluon/gluon/commit/75b70b70820067219a0298ea93bfb9874a4de982
+https://github.com/freifunk-gluon/gluon/commit/1db184a51c3eb997f496e9d5090fb365af70f995
 * includes new gluon versions:
+* https://gluon.readthedocs.io/en/latest/releases/v2017.1.7.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.6.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.5.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.4.html

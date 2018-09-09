@@ -1,6 +1,7 @@
 GLUON_FEATURES := \
 	alfred \
 	autoupdater \
+	config-mode-geo-location-osm \
 	web-private-wifi \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \

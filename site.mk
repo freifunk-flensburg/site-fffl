@@ -16,7 +16,7 @@ GLUON_FEATURES := \
 
 GLUON_SITE_PACKAGES := haveged iwinfo
 
-DEFAULT_GLUON_RELEASE := exp-2018.2-$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := exp$(shell date '+%Y%m%d')
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 

@@ -1,6 +1,7 @@
 GLUON_FEATURES := \
 	alfred \
 	autoupdater \
+	web-private-wifi \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
 	ebtables-limit-arp \

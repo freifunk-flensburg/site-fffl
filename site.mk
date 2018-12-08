@@ -1,27 +1,20 @@
-GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-14 \
-	gluon-respondd \
-	gluon-autoupdater \
-	gluon-setup-mode \
-	gluon-config-mode-core \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-hostname \
-	gluon-config-mode-mesh-vpn \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-contact-info \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-web-admin \
-	gluon-web-autoupdater \
-	gluon-web-network \
-	gluon-web-private-wifi \
-	gluon-web-wifi-config\
-	gluon-mesh-vpn-fastd \
-	gluon-radvd \
-	gluon-status-page \
-	iwinfo \
-	iptables \
-	haveged
+GLUON_FEATURES := \
+	alfred \
+	autoupdater \
+	web-private-wifi \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	ebtables-limit-arp \
+	mesh-batman-adv-14 \
+	mesh-vpn-fastd \
+	radvd \
+	respondd \
+	status-page \
+	web-advanced \
+	web-mesh-vpn-fastd \
+	web-wizard
+
+GLUON_SITE_PACKAGES := haveged iwinfo
 
 DEFAULT_GLUON_RELEASE := exp$(shell date '+%Y%m%d')
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -40,7 +33,7 @@ export GLUON_TARGET
 #if you want to build the other targets specify them in make GLUON_TARGET= at build time
 
 #ath10k devices cant mesh on "ibss" and "11s" at the same time so one needs to be choosen or images wont be build. 
-GLUON_ATH10K_MESH ?= 11s
+GLUON_WLAN_MESH ?= 11s
 #"some devices contain a region code that restricts firmware installations. Set GLUON_REGION to eu or us to make the resulting images installable from the respective stock firmwares." from readthedocs gluon
 GLUON_REGION ?= eu
 

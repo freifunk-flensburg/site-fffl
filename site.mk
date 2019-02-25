@@ -1,9 +1,10 @@
 GLUON_FEATURES := \
 	alfred \
 	autoupdater \
+	config-mode-geo-location-osm \
+	web-private-wifi \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
-	ebtables-limit-arp \
 	mesh-batman-adv-15 \
 	mesh-vpn-fastd \
 	radvd \

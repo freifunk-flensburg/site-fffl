@@ -3,6 +3,29 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
+Changelog for Stable-Version "2018.2.1-0"
+-----------------------------------------
+Gluon specific changes:
+* firmware based on gluon 2018.2.x commit:
+https://github.com/freifunk-gluon/gluon/commit/d6cab552df269c3ee050d83adebe784e02eccb23
+* includes new gluon versions:
+* https://gluon.readthedocs.io/en/v2018.2.x/releases/v2018.2.1.html
+* https://gluon.readthedocs.io/en/v2018.2.x/releases/v2018.2.html
+* https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.4.html
+* https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.3.html
+* https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.2.html
+* https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.1.html
+* https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.html
+* https://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.8.html
+
+
+FFFL specific changes:
+* based on site-fffl 2018.x_batmanadv14 commit:
+https://github.com/freifunk-flensburg/site-fffl/commit/53b8391d4a66c01b4ee8046c42d47b5c586f819e +1 
+* added feature "config-mode-geo-location-osm" an OpenStreetMap-based map in config wizard
+* change update paths to http://update.freifunk-flensburg.de
+* change site.mk from packages to features also add features: alfred
+
 Changelog for Stable-Version "2017.1.7-1"
 -----------------------------------------
 Gluon specific changes:

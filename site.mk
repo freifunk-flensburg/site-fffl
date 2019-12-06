@@ -15,7 +15,11 @@ GLUON_FEATURES := \
 	web-advanced \
 	web-wizard
 
-GLUON_SITE_PACKAGES := haveged iwinfo
+GLUON_SITE_PACKAGES := \
+	haveged \
+	iwinfo \
+	gluon-scheduled-domain-switch
+	
 
 DEFAULT_GLUON_RELEASE := exp$(shell date '+%Y%m%d')
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)

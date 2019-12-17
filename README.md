@@ -3,12 +3,15 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
-Changelog for Stable-Version "2018.2.1-0"
+Changelog for Stable-Version "2019.1.0-0"
 -----------------------------------------
 Gluon specific changes:
-* firmware based on gluon 2018.2.x commit:
-https://github.com/freifunk-gluon/gluon/commit/d6cab552df269c3ee050d83adebe784e02eccb23
-* includes new gluon versions:
+* firmware based on gluon 2019.1.x commit:
+https://github.com/freifunk-gluon/gluon/commit/ca3631723f4c21885ef8923b43b531102e598b1a* includes new gluon versions:
+
+* https://gluon.readthedocs.io/en/v2019.1/releases/v2019.1.html
+* https://gluon.readthedocs.io/en/v2019.1/releases/v2018.2.3.html
+* https://gluon.readthedocs.io/en/v2019.1/releases/v2018.2.2.html
 * https://gluon.readthedocs.io/en/v2018.2.x/releases/v2018.2.1.html
 * https://gluon.readthedocs.io/en/v2018.2.x/releases/v2018.2.html
 * https://gluon.readthedocs.io/en/v2018.1.x/releases/v2018.1.4.html
@@ -20,11 +23,28 @@ https://github.com/freifunk-gluon/gluon/commit/d6cab552df269c3ee050d83adebe784e0
 
 
 FFFL specific changes:
-* based on site-fffl 2018.x_batmanadv14 commit:
-https://github.com/freifunk-flensburg/site-fffl/commit/53b8391d4a66c01b4ee8046c42d47b5c586f819e +1 
+* based on site-fffl 2019.1 commit:
+https://github.com/freifunk-flensburg/site-fffl/commit/7440b69946f78ab98f19af47f8aeffd485bb2e88 +1
+
+* This release we will change our long used batmanadv_compat_14_IV https://www.open-mesh.org/projects/batman-adv/wiki/BATMAN_IV routing algo to batmanadv_compat_15_V https://www.open-mesh.org/projects/batman-adv/wiki/BATMAN_V. We will implement new gateways for batman_V, beware that batman_V routers wont be able to connect with batman_IV routers.
+To smoothen the change we implemented the gluon multidomain support, one domain for batmanadv_14_IV and one for batmanadv_15_V. The domains are changeable in config-mode.
+An automatic time based domainchange will be used to change the routers to batmanV on Saturday, February 1, 2020 4:00:00 PM GMT+01:00 (unix epoch 1580569200).
+
+* add multidomain support
+* add gluon-scheduled-domain-switch package
+* add domains for batmanadv_compat_14_IV and batmanadv_compat_15_V
+* change gw fastd keys to counter problems at domainchange
+* rename snowden to gw03
+* add vxlan=true
 * added feature "config-mode-geo-location-osm" an OpenStreetMap-based map in config wizard
 * change update paths to http://update.freifunk-flensburg.de
 * change site.mk from packages to features also add features: alfred
+
+Known issues:
+Due to changes in respondd, routers will vanish from map.freifunk-flensburg.de after the firmware update but apart from that should work just fine. The routers will reappear with the scheduled domain change on the new map that will go online on the same url. on february 1. If you want to take an early look on the new batmanV map it will be available aprox. stable release date on newmap.freifunk-flensburg.de .
+
+If you encounter problems feel free to connect us: https://freifunk-flensburg.de/#contact
+Or visit us: http://www.nordlab-ev.de/
 
 Changelog for Stable-Version "2017.1.7-1"
 -----------------------------------------

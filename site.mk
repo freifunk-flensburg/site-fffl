@@ -16,6 +16,7 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
 	haveged \
 	iwinfo \
+	respondd-module-airtime \
 	gluon-scheduled-domain-switch
 	
 

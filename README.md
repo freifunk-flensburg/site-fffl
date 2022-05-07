@@ -3,6 +3,12 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
+
+Changelog for Stable-Version "2021.1.2-0"
+-----------------------------------------
+emergency release because of https://github.com/freifunk-gluon/gluon/commit/7332d33775aaeec410a4c4b65b3ee1833ce32410
+
+
 Changelog for Stable-Version "2019.1.0-0"
 -----------------------------------------
 Gluon specific changes:

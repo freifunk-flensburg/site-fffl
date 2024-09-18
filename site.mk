@@ -15,7 +15,7 @@ export GLUON_TARGET
 #if you want to build the other targets specify them in make GLUON_TARGET= at build time
 
 #"some devices contain a region code that restricts firmware installations. Set GLUON_REGION to eu or us to make the resulting images installable from the respective stock firmwares." from readthedocs gluon
-GLUON_DEPRECATED := full
+GLUON_DEPRECATED := 0
 # full build(factory and sysupgrade) of depricated devices, other options: (0;upgrade)
 GLUON_MULTIDOMAIN=1
 GLUON_REGION ?= eu

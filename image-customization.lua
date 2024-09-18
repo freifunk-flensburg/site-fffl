@@ -1,0 +1,22 @@
+features({
+    'alfred',
+    'autoupdater',
+    'config-mode-geo-location-osm',
+    'config-mode-domain-select',
+    'web-private-wifi',
+    'ebtables-filter-multicast',
+    'ebtables-filter-ra-dhcp',
+    'mesh-batman-adv-15',
+    'mesh-vpn-fastd',
+    'radvd',
+    'respondd',
+    'status-page',
+    'web-advanced',
+    'web-wizard',
+})
+
+packages({})
+    'iwinfo',
+    'respondd-module-airtime',
+    'gluon-scheduled-domain-switch',
+})

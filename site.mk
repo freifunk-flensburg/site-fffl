@@ -1,25 +1,3 @@
-GLUON_FEATURES := \
-	alfred \
-	autoupdater \
-	config-mode-geo-location-osm \
-	config-mode-domain-select \
-	web-private-wifi \
-	ebtables-filter-multicast \
-	ebtables-filter-ra-dhcp \
-	mesh-batman-adv-15 \
-	mesh-vpn-fastd \
-	radvd \
-	respondd \
-	status-page \
-	web-advanced \
-	web-wizard
-
-GLUON_SITE_PACKAGES := \
-	iwinfo \
-	respondd-module-airtime \
-	gluon-scheduled-domain-switch
-	
-
 DEFAULT_GLUON_RELEASE := exp$(shell date '+%Y%m%d')
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 

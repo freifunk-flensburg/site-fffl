@@ -15,7 +15,7 @@ features({
     'web-wizard',
 })
 
-packages({})
+packages({
     'iwinfo',
     'respondd-module-airtime',
     'gluon-scheduled-domain-switch',

@@ -3,6 +3,63 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
+Changelog for Stable-Version "stable-2022.1.4-0"
+-----------------------------------------
+
+Gluon specific changes:
+* firmware based on gluon v2022.1.4:
+* https://github.com/freifunk-gluon/gluon/tree/v2022.1.4
+
+includes new gluon versions:
+* https://gluon.readthedocs.io/en/latest/releases/v2022.1.4.html
+* https://gluon.readthedocs.io/en/latest/releases/v2022.1.3.html
+* https://gluon.readthedocs.io/en/latest/releases/v2022.1.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2022.1.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2022.1.html
+
+FFFL specific changes:
+* based on site-fffl 2022.1.4_batmanV_patches commit:
+* https://github.com/freifunk-flensburg/site-fffl/commit/a504b577d1bf933eef77c56670513c64e53009ac
+
+no changes
+
+
+Changelog for Stable-Version "2021.1.2-1"
+-----------------------------------------
+
+Gluon specific changes:
+* firmware based on gluon v2021.1.2:
+* https://github.com/freifunk-gluon/gluon/tree/v2021.1.2
+
+includes new gluon versions:
+* https://gluon.readthedocs.io/en/latest/releases/v2021.1.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2021.1.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2021.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.2.3.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.2.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.2.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.4.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.3.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2019.1.3.html
+* https://gluon.readthedocs.io/en/latest/releases/v2019.1.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2019.1.1.html
+
+FFFL specific changes:
+
+* based on site-fffl 2021.1.2_batmanV_patches commit:
+* https://github.com/freifunk-flensburg/site-fffl/commit/37df4eb94445a0941be7040a620c5a23566a65a5
+
+* removed batman_IV and made batman_V default
+* added respondd-module-airtime to site.mk
+* removed bigfoots pubkey; added yellnis pubkey to site.conf
+* added domain for niebuell so that they can have there own ssid
+* added firmware signing key for klaus
+* added ffmu´s patches for better integration of batmanV
+
 
 Changelog for Stable-Version "2021.1.2-0"
 -----------------------------------------
@@ -13,7 +70,7 @@ Changelog for Stable-Version "2019.1.0-0"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2019.1.x commit:
-https://github.com/freifunk-gluon/gluon/commit/ca3631723f4c21885ef8923b43b531102e598b1a* includes new gluon versions:
+* https://github.com/freifunk-gluon/gluon/commit/ca3631723f4c21885ef8923b43b531102e598b1a* includes new gluon versions:
 
 * https://gluon.readthedocs.io/en/v2019.1/releases/v2019.1.html
 * https://gluon.readthedocs.io/en/v2019.1/releases/v2018.2.3.html
@@ -30,7 +87,7 @@ https://github.com/freifunk-gluon/gluon/commit/ca3631723f4c21885ef8923b43b531102
 
 FFFL specific changes:
 * based on site-fffl 2019.1 commit:
-https://github.com/freifunk-flensburg/site-fffl/commit/7440b69946f78ab98f19af47f8aeffd485bb2e88 +1
+* https://github.com/freifunk-flensburg/site-fffl/commit/7440b69946f78ab98f19af47f8aeffd485bb2e88 +1
 
 * This release we will change our long used batmanadv_compat_14_IV https://www.open-mesh.org/projects/batman-adv/wiki/BATMAN_IV routing algo to batmanadv_compat_15_V https://www.open-mesh.org/projects/batman-adv/wiki/BATMAN_V. We will implement new gateways for batman_V, beware that batman_V routers wont be able to connect with batman_IV routers.
 To smoothen the change we implemented the gluon multidomain support, one domain for batmanadv_14_IV and one for batmanadv_15_V. The domains are changeable in config-mode.
@@ -56,18 +113,18 @@ Changelog for Stable-Version "2017.1.7-1"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
-https://github.com/freifunk-gluon/gluon/commit/1db184a51c3eb997f496e9d5090fb365af70f995
+* https://github.com/freifunk-gluon/gluon/commit/1db184a51c3eb997f496e9d5090fb365af70f995
 
 FFFL specific changes:
 * based on site-fffl 2017.x_11s commit:
-https://github.com/freifunk-flensburg/site-fffl/commit/ad41d03373ddd926abff789ae7bf222f8aa86cae +1
+* https://github.com/freifunk-flensburg/site-fffl/commit/ad41d03373ddd926abff789ae7bf222f8aa86cae +1
 * removed ibss meshing, 802.11s mesh from now on only
 
 Changelog for Stable-Version "2017.1.7-0"
 -----------------------------------------
 Gluon specific changes:
 * firmware based on gluon 2017.x commit:
-https://github.com/freifunk-gluon/gluon/commit/1db184a51c3eb997f496e9d5090fb365af70f995
+* https://github.com/freifunk-gluon/gluon/commit/1db184a51c3eb997f496e9d5090fb365af70f995
 * includes new gluon versions:
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.7.html
 * https://gluon.readthedocs.io/en/latest/releases/v2017.1.6.html
@@ -95,7 +152,7 @@ https://github.com/freifunk-gluon/gluon/commit/1db184a51c3eb997f496e9d5090fb365a
 
 FFFL specific changes:
 * based on site-fffl 2017.x_11s commit:
-https://github.com/freifunk-flensburg/site-fffl/commit/40f76d37adcf16a794b0715e4b33a6cb6996278c +1 
+* https://github.com/freifunk-flensburg/site-fffl/commit/40f76d37adcf16a794b0715e4b33a6cb6996278c +1 
 * enable both ibss and 802.11s meshes for migration to 802.11s mesh only which will come in the next releases
 * add 11s mesh_id "0x6666666c2d6d657368" which is hex and means "fffl-mesh" in ASCII
 * removed alfred fromn site.mk

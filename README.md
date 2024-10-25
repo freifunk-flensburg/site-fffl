@@ -3,6 +3,42 @@ site-fffl
 
 This repository contains the site.conf and other configuration files for the Gluon-Firmware. For further Information (in German) please go to http://wiki.freifunk-flensburg.de/index.php?title=Gluon and read the article.
 
+Changelog for Stable-Version "2021.1.2-1"
+-----------------------------------------
+
+Gluon specific changes:
+* firmware based on gluon v2021.1.2:
+https://github.com/freifunk-gluon/gluon/tree/v2021.1.2
+
+includes new gluon versions:
+* https://gluon.readthedocs.io/en/latest/releases/v2021.1.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2021.1.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2021.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.2.3.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.2.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.2.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.4.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.3.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2020.1.html
+* https://gluon.readthedocs.io/en/latest/releases/v2019.1.3.html
+* https://gluon.readthedocs.io/en/latest/releases/v2019.1.2.html
+* https://gluon.readthedocs.io/en/latest/releases/v2019.1.1.html
+
+FFFL specific changes:
+
+* based on site-fffl 2021.1.2_batmanV_patches commit:
+https://github.com/freifunk-flensburg/site-fffl/commit/37df4eb94445a0941be7040a620c5a23566a65a5
+
+* removed batman_IV and made batman_V default
+* added respondd-module-airtime to site.mk
+* removed bigfoots pubkey; added yellnis pubkey to site.conf
+* added domain for niebuell so that they can have there own ssid
+* added firmware signing key for klaus
+* added ffmu´s patches for better integration of batman
+
 
 Changelog for Stable-Version "2021.1.2-0"
 -----------------------------------------

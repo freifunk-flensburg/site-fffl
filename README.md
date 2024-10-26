@@ -60,7 +60,6 @@ FFFL specific changes:
 * added firmware signing key for klaus
 * added ffmu´s patches for better integration of batmanV
 
-
 Changelog for Stable-Version "2021.1.2-0"
 -----------------------------------------
 emergency release because of https://github.com/freifunk-gluon/gluon/commit/7332d33775aaeec410a4c4b65b3ee1833ce32410
